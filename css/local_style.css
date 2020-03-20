@@ -59,5 +59,6 @@ input{
 .button:hover{
 	border: 1px solid hotpink;
 	background-color: hotpink;
+	color: #FACACD;
 }
 }
