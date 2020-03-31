@@ -28,11 +28,8 @@ img{
 h1{
 	font-size: 75%;
 	color: #FACACD;
-	margin-left: 10%;
-	margin-right: 10%;
 }
 .elements{
-	vertical-align: middle;
 	position: absolute;
 	top: 30%;
 	left: 0%;
@@ -57,4 +54,15 @@ input{
 .button:hover{
 	background-color: #be54b4;
 	color: #FACACD;
+}
+@media (max-width: 480px){
+	h1{
+		font-size: 50%;
+	}
+	.subelements{
+		margin-top: 0%;
+	}
+	input{
+		font-size: 20%;
+	}
 }
