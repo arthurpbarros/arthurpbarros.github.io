@@ -1,33 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
+
 <head>
-	<title> Bem Vindo! </title>
 	<meta charset="UTF-8">
-	<meta author="Arthur">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-	<script src="js/jquery.mask.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function (){
-			$("#phone").mask("(99)99999-9999");
-		});
-	</script>
-	<link rel="stylesheet" href="css/local_style.css" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Meu Site</title>
+	<!-- <link rel="stylesheet" href="styles.css"> -->
+	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+	<link href="css/estilo.css" rel="stylesheet">
 </head>
-<body>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-12">
-				<img src="img/photo_home.png" alt="imagem">
-				<div class="elements text-center">
-					<h1> Seja Bem-Vindo! </h1>
-					<input class="subelements" type="text" placeholder="Telefone" id="phone">
-					<input class="subelements button" type="submit" name="" value="Avançar">
-				</div> 
+
+<body class="w-full">
+	<!-- <header>
+		<nav>
+			<ul>
+				<li><a href="#inicio">Início</a></li>
+				<li><a href="#sobre">Sobre</a></li>
+				<li><a href="#contato">Contato</a></li>
+			</ul>
+		</nav>
+	</header> -->
+
+	<main>
+		<section id="inicio" class="row font-base">
+			<div class="w-full bg-radial from-[#02070A] to-[#122029]">
+				<div class="w-3/4 mx-auto gap-6 flex flex-row justify-center itens-center">
+					<div class="col w-1/2 justify-center itens-center min-h-full flex flex-col">
+						<h1 class="leading-20 text-white text-7xl">Sou <span
+								class="animate-bounce easy-in-out text-[#0edad4] font-bold">Arthur</span>, desenvolvedor fullstack
+							focado em
+							desenvolver aplicações web </h1>
+						<p>Conteúdo principal do site.</p>
+					</div>
+					<div class="row w-1/2 mask-l-from-50% bg-[#0edad4] blend-overlay fundo h-20">
+
+					</div>
+				</div>
 			</div>
-		</div>
-	</div>
+		</section>
+
+		<section id="sobre">
+			<h2>Sobre</h2>
+			<article>
+				<p>Informações sobre o site ou autor.</p>
+			</article>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2024 Todos os direitos reservados.</p>
+	</footer>
 </body>
+
 </html>

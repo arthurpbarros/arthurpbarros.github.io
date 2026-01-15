@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Momo+Trust+Display&display=swap');
+@import "tailwindcss";
+
+@media (max-width: 600px) {
+    .fundo {
+        background-image: url("/img/perfil.jpeg");
+    }
+}
+
+@media (min-width: 601px) {
+    span {
+        font-family: 'Momo Trust Display', sans-serif;
+    }
+
+    #perfil {
+        /* clip-path: circle(77% at 70% 29%); */
+    }
+
+    .fundo {
+        background-image: url("/img/perfil.jpeg");
+        clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
+    }  
+}
+
+@theme {
+    --color-prata: #929496;
+    --color-ciano: #0DABA5;
+    --color-white: #f2f4f3;
+    --background-image-django: url('./img/Django.png');
+    --background-image-vue: url('./img/Vue.js.png');
+    --background-image-react: url('./img/React.png');
+    --background-image-next: url('./img/Next.js.png');
+}
+
+* {
+    font-family: 'Momo Trust Display', sans-serif;
+    /* font-family: 'IBM Plex Sans', sans-serif; */
+}
