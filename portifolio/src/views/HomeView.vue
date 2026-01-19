@@ -177,23 +177,23 @@ function choiceFramework(framework_str: string) {
       <div class="w-5/6 mx-auto flex flex-col sm:flex-row gap-5 text-white">
         <div class="bg-indigo-900 flex flex-col justify-center rounded-t-xl shadow-indigo-900 shadow-2xl">
           <img :src=Daiane alt="" class="mx-auto rounded-t-xl">
-          <div class= "bg-indigo-900 h-20 flex flex-col justify-center p-8">
-            <h3 class="text-white text-xl sm:text-lg xl:text-xl text-left">Landing Page Fisioterapia</h3>
-            <p class="font-serif text-sm">Sistema para atendimentos da fisioterapeuta Daiane Carla</p>
+          <div class= "bg-indigo-900 flex flex-col gap-5 justify-center p-5">
+            <h3 class="text-white text-xl sm:text-lg xl:text-xl text-left border-b">Landing Page Fisioterapia</h3>
+            <p class="font-serif">Sistema para atendimentos da fisioterapeuta Daiane Carla</p>
           </div>
         </div>
         <div class="bg-indigo-900 flex flex-col justify-center rounded-t-xl shadow-indigo-900 shadow-2xl">
           <img :src=Daiane alt="" class="mx-auto rounded-t-xl">
-          <div class= "bg-indigo-900 h-20 flex flex-col justify-center p-8">
-            <h3 class="text-white text-xl sm:text-lg xl:text-xl text-left">Landing Page Fisioterapia</h3>
-            <p class="font-serif text-sm">Sistema para atendimentos da fisioterapeuta Daiane Carla</p>
+          <div class= "bg-indigo-900 flex flex-col gap-5 justify-center p-5">
+            <h3 class="text-white text-xl sm:text-lg xl:text-xl text-left border-b">Landing Page Fisioterapia</h3>
+            <p class="font-serif">Sistema para atendimentos da fisioterapeuta Daiane Carla</p>
           </div>
         </div>
         <div class="bg-indigo-900 flex flex-col justify-center rounded-t-xl shadow-indigo-900 shadow-2xl">
           <img :src=Daiane alt="" class="mx-auto rounded-t-xl">
-          <div class= "bg-indigo-900 h-20 flex flex-col justify-center p-8">
-            <h3 class="text-white text-xl sm:text-lg xl:text-xl text-left">Landing Page Fisioterapia</h3>
-            <p class="font-serif text-sm">Sistema para atendimentos da fisioterapeuta Daiane Carla</p>
+          <div class= "bg-indigo-900 flex flex-col gap-5 justify-center p-5">
+            <h3 class="text-white text-xl sm:text-lg xl:text-xl text-left border-b">Landing Page Fisioterapia</h3>
+            <p class="font-serif">Sistema para atendimentos da fisioterapeuta Daiane Carla</p>
           </div>
         </div>
       </div>
