@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Momo+Trust+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
 @import "tailwindcss";
 
 @media (max-width: 600px) {
@@ -22,6 +24,11 @@
     }  
 }
 
+.fundo_code{
+    background-image: url("/img/unsplash.jpg");
+    /* clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%); */
+}
+
 @theme {
     --color-prata: #929496;
     --color-ciano: #0DABA5;
@@ -30,9 +37,6 @@
     --background-image-vue: url('./img/Vue.js.png');
     --background-image-react: url('./img/React.png');
     --background-image-next: url('./img/Next.js.png');
-}
-
-* {
-    font-family: 'Momo Trust Display', sans-serif;
-    /* font-family: 'IBM Plex Sans', sans-serif; */
+    --font-sans: 'Momo Trust Display', sans-serif;
+    --font-serif: 'Sora', sans-serif;
 }

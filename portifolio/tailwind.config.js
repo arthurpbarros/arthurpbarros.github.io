@@ -5,6 +5,8 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
+      sans: ['Momo Trust Display','sans-serif'],
+      serif: ['Sora','sans-serif']
     },
     extend: {
         backgroundImage: {
